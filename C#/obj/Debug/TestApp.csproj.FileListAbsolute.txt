@@ -1,0 +1,14 @@
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\bin\Debug\TestApp.exe
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\obj\Debug\TestApp.exe
+C:\Users\chris\OneDrive\Desktop\C#\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\chris\C#\bin\Debug\TestApp.exe.config
+C:\Users\chris\C#\bin\Debug\TestApp.exe
+C:\Users\chris\C#\bin\Debug\TestApp.pdb
+C:\Users\chris\C#\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\chris\C#\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\chris\C#\obj\Debug\TestApp.exe
+C:\Users\chris\C#\obj\Debug\TestApp.pdb
