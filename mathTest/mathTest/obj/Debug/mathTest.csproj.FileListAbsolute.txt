@@ -1,0 +1,7 @@
+C:\Users\chris\source\repos\mathTest\mathTest\obj\Debug\mathTest.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\mathTest\mathTest\obj\Debug\mathTest.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\mathTest\mathTest\bin\Debug\mathTest.exe.config
+C:\Users\chris\source\repos\mathTest\mathTest\bin\Debug\mathTest.exe
+C:\Users\chris\source\repos\mathTest\mathTest\bin\Debug\mathTest.pdb
+C:\Users\chris\source\repos\mathTest\mathTest\obj\Debug\mathTest.exe
+C:\Users\chris\source\repos\mathTest\mathTest\obj\Debug\mathTest.pdb
