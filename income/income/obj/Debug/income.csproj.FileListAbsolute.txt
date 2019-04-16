@@ -1,0 +1,7 @@
+C:\Users\chris\source\repos\income\income\obj\Debug\income.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\income\income\obj\Debug\income.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\income\income\bin\Debug\income.exe.config
+C:\Users\chris\source\repos\income\income\bin\Debug\income.exe
+C:\Users\chris\source\repos\income\income\bin\Debug\income.pdb
+C:\Users\chris\source\repos\income\income\obj\Debug\income.exe
+C:\Users\chris\source\repos\income\income\obj\Debug\income.pdb
