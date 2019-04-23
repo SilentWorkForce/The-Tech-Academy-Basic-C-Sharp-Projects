@@ -1,0 +1,7 @@
+C:\Users\chris\source\repos\Lab117\Lab117\bin\Debug\Lab117.exe.config
+C:\Users\chris\source\repos\Lab117\Lab117\bin\Debug\Lab117.exe
+C:\Users\chris\source\repos\Lab117\Lab117\bin\Debug\Lab117.pdb
+C:\Users\chris\source\repos\Lab117\Lab117\obj\Debug\Lab117.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Lab117\Lab117\obj\Debug\Lab117.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\Lab117\Lab117\obj\Debug\Lab117.exe
+C:\Users\chris\source\repos\Lab117\Lab117\obj\Debug\Lab117.pdb
