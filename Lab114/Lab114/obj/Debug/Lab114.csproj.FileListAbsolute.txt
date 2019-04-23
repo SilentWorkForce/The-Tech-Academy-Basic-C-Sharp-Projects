@@ -1,0 +1,7 @@
+C:\Users\chris\source\repos\Lab114\Lab114\bin\Debug\Lab114.exe.config
+C:\Users\chris\source\repos\Lab114\Lab114\bin\Debug\Lab114.exe
+C:\Users\chris\source\repos\Lab114\Lab114\bin\Debug\Lab114.pdb
+C:\Users\chris\source\repos\Lab114\Lab114\obj\Debug\Lab114.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Lab114\Lab114\obj\Debug\Lab114.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\Lab114\Lab114\obj\Debug\Lab114.exe
+C:\Users\chris\source\repos\Lab114\Lab114\obj\Debug\Lab114.pdb
