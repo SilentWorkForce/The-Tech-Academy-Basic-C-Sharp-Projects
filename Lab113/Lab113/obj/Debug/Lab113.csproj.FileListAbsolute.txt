@@ -1,0 +1,7 @@
+C:\Users\chris\source\repos\Lab113\Lab113\bin\Debug\Lab113.exe.config
+C:\Users\chris\source\repos\Lab113\Lab113\bin\Debug\Lab113.exe
+C:\Users\chris\source\repos\Lab113\Lab113\bin\Debug\Lab113.pdb
+C:\Users\chris\source\repos\Lab113\Lab113\obj\Debug\Lab113.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Lab113\Lab113\obj\Debug\Lab113.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\Lab113\Lab113\obj\Debug\Lab113.exe
+C:\Users\chris\source\repos\Lab113\Lab113\obj\Debug\Lab113.pdb
