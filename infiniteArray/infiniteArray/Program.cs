@@ -10,126 +10,125 @@ namespace infiniteArray
     {
         static void Main(string[] args)
         {
-            //create an array and add a users input to the array
+            /*Create a one-dimensional Array of strings. Ask the user to input some 
+             * text. Create a loop that goes through each string in the Array, adding
+             * the user’s text to the string. Then create a loop that prints off each 
+             * string in the Array on a separate line.*/
+            string[] strings = { "one", "two", "three", "four", "five" };
 
-            string[] names = new string[5];
-            names[0] = "Christopher";
-            names[1] = "Reece";
-            names[2] = "Caroline";
-            names[3] = "Troy";
+            Console.WriteLine("Input a string to add to all strings in the arry.");
+            string input = Console.ReadLine();
+            //Add user input to every string
+            for (int i = 0; i < strings.Length; i++)
+                strings[i] = String.Concat(strings[i], input);
+            Console.WriteLine("Array after concatination: ");
+            for (int i = 0; i < strings.Length; i++)
+                Console.WriteLine("[" + i + "] " + strings[i]);
 
-            Console.WriteLine("Please enter a name:");
-            string userEntry = Console.ReadLine();
-            names[4] = userEntry;
 
+            /* Create an infinite loop.*/
+            //for (int i = 1; i > 0; i++)
+            //{
+            //    Console.WriteLine("This is infinite");
+            //}
 
-            //create a loop that cycles through the array with the added user entry
-
-            foreach (string name in names)
+            /* This is no longer infinite*/
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(name);
+                Console.WriteLine("This is NOT infinite");
             }
 
-            Console.WriteLine("Press any key to enter infinite loop!");
-            Console.ReadLine();
+            /*Create a loop where the comparison used to determine whether to continue 
+             * iterating the loop is a “<” operator.*/
+            for (int i = 0; i < 10; i++)
+                Console.WriteLine("[" + i + "]" + "This loops compares using the < operator");
 
-            /*create an infinite loop*/
-
-            int i = 0;
-            while (i == 0)
-            {
-                Console.WriteLine("infinite loop");
-            }
+            /*Create a loop where the comparison used to determine whether to continue 
+             * iterating the loop is a “<=” operator.*/
+            for (int i = 0; i <= 9; i++)
+                Console.WriteLine("[" + i + "]" + "This loops compares using the <= operator");
 
 
-            //loop operators
+            /*Create a List of strings where each item in the list is unique. Ask the user 
+             * to select text to search for in the List. Create a loop that iterates through 
+             * the loop and then displays the index of the array that contains matching text 
+             * on the screen.*/
+            string[] moreStrings = { "one", "two", "three", "four", "five" };
 
-            for (int j = 0; j < 100; j++)
-            {
-                Console.WriteLine(j);
-            }
+            Console.WriteLine("What text should I search for in the string array? ");
+            input = Console.ReadLine();
 
-            Console.ReadLine();
 
-            //List loops
-
-            List<string> parts = new List<string>()
-            {"cpu","mobo","ram" };
-
-            Console.WriteLine("Enter text to search in the list");
-            string userEntry2 = Console.ReadLine();
-
-            if (userEntry2 != "cpu" && userEntry2 != "mobo" && userEntry2 != "ram")
-            {
-                Console.WriteLine("Your selection was not found in the list");
-                Console.ReadLine();
-                Environment.Exit(0);
-            }
-            else
-            {
-
-                foreach (string part in parts)
+            bool match = false;
+            for (int i = 0; i < moreStrings.Length; i++)
+                if (moreStrings[i].Equals(input))
                 {
-                    Console.WriteLine(part + " " + parts.IndexOf(part));
-                    Console.WriteLine(" ");
-
-                    if (userEntry2 == part)
-                    {
-                        Console.WriteLine("You've found the " + part + " " + "at index " + parts.IndexOf(part));
-                        Console.ReadLine();
-                        Environment.Exit(0);
-                    }
+                    match = true;
+                    Console.WriteLine("Found string at index[" + i + "]:" + moreStrings[i]);
+                    //stop executing once a match has been found.
+                    break;
                 }
-            }
+            //tells a user if they put in text that isn’t in the List.
+            if (!match)
+                Console.WriteLine("Your input wasn't found in the array.");
+
+            /*Create a List of strings that has at least two identical strings in the List. Ask the user to 
+             * select text to search for in the List. Create a loop that iterates through the loop and then
+             * displays the indices of the array that contain matching text on the screen.*/
+            int count = 0;
+            match = false;
+            List<string> stringList = new List<string>();
+            stringList.Add("same string");
+            stringList.Add("same string");
+            stringList.Add("same string");
+            stringList.Add("dif string");
+            stringList.Add("dif string");
+            stringList.Add("different string");
+            stringList.Add("12-0391-2093");
 
 
-            //identical strings list
-
-            List<string> types = new List<string>()
-                {"intel","amd","intel","asus" };
-
-            Console.WriteLine("Enter text to search from list");
-            string userEntry3 = Console.ReadLine();
-
-            if (userEntry3 != "intel" && userEntry3 != "amd" && userEntry3 != "asus")
+            Console.WriteLine("Search List of Strings for what?: ");
+            input = Console.ReadLine();
+            Console.WriteLine("The following contain: " + input);
+            foreach (string str in stringList)
             {
-                Console.WriteLine("Your selection was not found");
-                Console.ReadLine();
-                Environment.Exit(0);
+                if (str.Equals(input))
+                {
+                    match = true;
+                    Console.WriteLine(count);
+                }
+                count++;
             }
-            else
+            if (!match)//tells a user if they put in text that isn’t in the List.
+                Console.WriteLine("That string was not found in the array");
+
+
+            /*Create a List of strings that has at least two identical strings in the List. Create a 
+             * foreach loop that evaluates each item in the list, and displays a message showing the string
+             * and whether or not it has already appeared in the list.*/
+            match = false;
+            List<string> repeats = new List<string>();
+            stringList = new List<string>();
+            stringList.Add("same string");
+            stringList.Add("same string");
+            stringList.Add("same string");
+            stringList.Add("dif string");
+            stringList.Add("dif string");
+            stringList.Add("different string");
+            stringList.Add("12-0391-2093");
+
+            Console.WriteLine("String|Repeat?");
+            foreach (string str in stringList)
             {
-
-                foreach (string type in types)
-                {
-                    Console.WriteLine(type + " " + types.IndexOf(type));
-                    if (userEntry3 == type)
-                    {
-                        Console.WriteLine("This entry already appears in the list");
-                        Console.ReadLine();
-                        Environment.Exit(0);
-                    }
-                }
+                foreach (string inner in repeats)
+                    if (inner.Equals(str))
+                        match = true;
+                Console.WriteLine(str + " | " + match);
+                repeats.Add(str);
+                match = false;
             }
-            Console.ReadLine();
 
-            List<string> computers = new List<string>()
-            {"msi","alienware","apple","asus","msi" };
-
-            foreach (string computer in computers)
-            {
-                Console.WriteLine(computer.LastIndexOf("msi"));
-                if (computer.IndexOf("msi") == computer.LastIndexOf(computer))
-                {
-                    Console.WriteLine("This entry already appeared in the list before");
-                }
-                else
-                {
-                    Console.WriteLine();
-
-                }
-            }
-            Console.ReadLine();
+            Console.Read();
         }
     }
 }
