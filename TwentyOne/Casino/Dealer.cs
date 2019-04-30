@@ -20,7 +20,7 @@ namespace Casino
             Console.WriteLine(card);
 
             //Add logging every time a card is dealt
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Reis\Documents\TwentyOneGameLog.txt", true))
+            using (StreamWriter file = new StreamWriter(@"C:\Users\chris\Documents\TwentyOneGameLog.txt", true))
             {
                 file.WriteLine(DateTime.Now);
                 file.WriteLine(card);

@@ -56,13 +56,13 @@ namespace TwentyOne
                         return;
                     }
                     //catch general exceptions
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("An error occurred. Please contact your System Administrator.");
-                        UpdateDbWithException(ex);
-                        Console.ReadLine();
-                        return;
-                    }
+                    //catch (Exception ex)
+                    //{
+                    //    Console.WriteLine("An error occurred. Please contact your System Administrator.");
+                    //    UpdateDbWithException(ex);
+                    //    Console.ReadLine();
+                    //    return;
+                    //}
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
