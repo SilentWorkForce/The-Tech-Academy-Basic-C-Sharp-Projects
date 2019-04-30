@@ -107,7 +107,8 @@ namespace infiniteArray
              * foreach loop that evaluates each item in the list, and displays a message showing the string
              * and whether or not it has already appeared in the list.*/
             match = false;
-            List<string> stringList = new List<string>();
+            List<string> repeats = new List<string>();
+            stringList = new List<string>();
             stringList.Add("same string");
             stringList.Add("same string");
             stringList.Add("same string");
@@ -116,20 +117,15 @@ namespace infiniteArray
             stringList.Add("different string");
             stringList.Add("12-0391-2093");
 
-            bool match = false;
-            List<string> repeats = new List<string>();
-           
-            foreach (string item in stringList)
+            Console.WriteLine("String|Repeat?");
+            foreach (string str in stringList)
             {
-                if (!repeats.Contains(item))
-                {
-                    repeats.Add(item);
-                    Console.WriteLine("This <<" + item + ">> appears for the first time.");
-                }
-                else
-                {
-                    Console.WriteLine("This <<" + item + ">> has ALREADY APPEARED in the list.");
-                }
+                foreach (string inner in repeats)
+                    if (inner.Equals(str))
+                        match = true;
+                Console.WriteLine(str + " | " + match);
+                repeats.Add(str);
+                match = false;
             }
 
             Console.Read();

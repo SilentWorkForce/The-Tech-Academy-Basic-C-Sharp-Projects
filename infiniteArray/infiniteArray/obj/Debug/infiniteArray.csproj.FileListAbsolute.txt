@@ -5,3 +5,7 @@ C:\Users\chris\source\repos\infiniteArray\infiniteArray\bin\Debug\infiniteArray.
 C:\Users\chris\source\repos\infiniteArray\infiniteArray\bin\Debug\infiniteArray.pdb
 C:\Users\chris\source\repos\infiniteArray\infiniteArray\obj\Debug\infiniteArray.exe
 C:\Users\chris\source\repos\infiniteArray\infiniteArray\obj\Debug\infiniteArray.pdb
+D:\Github\The-Tech-Academy-Basic-C-Sharp-Projects\infiniteArray\infiniteArray\obj\Debug\infiniteArray.csprojAssemblyReference.cache
+D:\Github\The-Tech-Academy-Basic-C-Sharp-Projects\infiniteArray\infiniteArray\obj\Debug\infiniteArray.csproj.CoreCompileInputs.cache
+D:\Github\The-Tech-Academy-Basic-C-Sharp-Projects\infiniteArray\infiniteArray\obj\Debug\infiniteArray.exe
+D:\Github\The-Tech-Academy-Basic-C-Sharp-Projects\infiniteArray\infiniteArray\obj\Debug\infiniteArray.pdb
