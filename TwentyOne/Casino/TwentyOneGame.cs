@@ -136,7 +136,7 @@ namespace Casino.TwentyOne
                 foreach (KeyValuePair<Player, int> entry in Bets)
                 {
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
-                    //ridiculous Lambda expression
+                    //Crazy Lambda expression
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                     Dealer.Balance -= entry.Value;
                 }
