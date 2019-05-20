@@ -22,7 +22,7 @@ namespace Casino
             //Add logging every time a card is dealt
             using (StreamWriter file = new StreamWriter(@"C:\Users\chris\Documents\TwentyOneGameLog.txt", true))
             {
-                //Date time below
+                
                 file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
